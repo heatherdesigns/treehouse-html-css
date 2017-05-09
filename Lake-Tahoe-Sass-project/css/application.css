@@ -47,9 +47,6 @@ a:visited {
 a:hover {
   color: rgba(255, 169, 73, 0.4); }
 
-a:active {
-  color: lightcoral; }
-
 /* layout styles */
 .main-header {
   padding-top: 170px;
@@ -62,19 +59,6 @@ a:active {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px solid #ffa949; }
-
-.primary-content,
-.secondary-content {
-  width: 75%;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin: auto;
-  max-width: 960px; }
-
-.primary-content,
-.main-header,
-.main-footer {
-  text-align: center; }
 
 .primary-content {
   padding-top: 25px;
@@ -96,15 +80,32 @@ a:active {
   box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.8);
   border-radius: 10px; }
 
-.resorts,
-.tips {
-  width: 46.5%; }
-
 .tips {
   float: left; }
 
 .resorts {
   float: right; }
+
+.main-header, .main-footer, .primary-content {
+  text-align: center; }
+
+.primary-content, .secondary-content {
+  border-top: 2px solid #dfe2e6; }
+
+.primary-content, .secondary-content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px; }
+
+.tips, .resorts {
+  width: 46.5%; }
+
+.secondary-content:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /* component styles */
 @font-face {

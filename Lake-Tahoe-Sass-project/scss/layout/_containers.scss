@@ -6,7 +6,7 @@
   padding-bottom: 95px;
 }
 
-.secondary-content
+.secondary-content {
   @extend %content;
   @extend %t-border;
   @extend %clearfix;

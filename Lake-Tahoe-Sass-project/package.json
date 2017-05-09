@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "build-css": "node-sass --include-path scss scss/application.scss css/application.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "heather taylor",

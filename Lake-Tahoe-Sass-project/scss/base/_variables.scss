@@ -24,3 +24,17 @@ $color-link-visited : $regent-st-blue;
 
 $color-shadow       : rgba($black, 0.8);
 $color-body         : $white;
+
+// font stacks
+
+$stack-sans-serif   : Helvetica, Arial, sans-serif;
+$stack-helvetica    : "Helvetica Neue", $stack-sans-serif;
+$stack-abolition    : 'Abolition Regular', $stack-sans-serif;
+
+// border radius
+
+$br       : 10px;
+
+// asset paths
+
+$path-img : '../img';

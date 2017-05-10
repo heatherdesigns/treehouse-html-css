@@ -147,3 +147,6 @@ a:hover {
 .arrow {
   width: 50px;
   margin-top: 150px; }
+  @media (max-width: 768px) {
+    .arrow {
+      display: none; } }

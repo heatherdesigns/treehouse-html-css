@@ -40,7 +40,7 @@ $br : 10px;
 $path-img   : '../img';
 $path-font  : '../fonts';
 
-// media query breakpoints
+// media query breakpoints - TODO: make adjust to min-width, not max-width.
 
 $brk-narrow : '(max-width: 768px)';
 $brk-wide   : '(max-width: 1024px)';
